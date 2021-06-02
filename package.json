@@ -1,0 +1,43 @@
+{
+  "name": "noindent",
+  "version": "1.0.0",
+  "description": "Remove indentation from multiline strings, e.g. ones that were created with template literals",
+  "main": "lib/index.js",
+  "repository": "https://github.com/lukasbach/noident",
+  "author": "Lukas Bach <lbach@outlook.de>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "ava"
+  },
+  "keywords": [
+    "indentation",
+    "indent",
+    "template literals",
+    "template",
+    "literals",
+    "string",
+    "pretty",
+    "multiline",
+    "utility"
+  ],
+  "devDependencies": {
+    "@lukasbach/tsconfig": "^0.1.0",
+    "ava": "^3.15.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2"
+  },
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nonSemVerExperiments": {
+      "configurableModuleFormat": true
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm"
+    ]
+  }
+
+}
