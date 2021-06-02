@@ -1,5 +1,7 @@
 # `noindent`
 
+[![Test](https://github.com/lukasbach/noindent/actions/workflows/test.yml/badge.svg)](https://github.com/lukasbach/noindent/actions/workflows/test.yml)
+
 Allows you to use multiline strings created with template literals that
 were constructed with indentation. `noindent` cleans out the indentation,
 making the resulting string clean from inconsistent indentations while
